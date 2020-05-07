@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fuga on 布団が俺を呼んでいる</title>
+    <link>ttps://okayamadaiti.github.io/blog/tags/fuga/</link>
+    <description>Recent content in fuga on 布団が俺を呼んでいる</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 07 May 2020 16:32:44 +0900</lastBuildDate>
+    
+	<atom:link href="ttps://okayamadaiti.github.io/blog/tags/fuga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>テスト投稿</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20200507/</link>
+      <pubDate>Thu, 07 May 2020 16:32:44 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20200507/</guid>
+      <description>testsite</description>
+    </item>
+    
+  </channel>
+</rss>
