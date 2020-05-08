@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/posts/</link>
-    <description>Recent content in Posts on 布団が俺を呼んでいる</description>
+    <title>備忘 on 布団が俺を呼んでいる</title>
+    <link>ttps://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/</link>
+    <description>Recent content in 備忘 on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
     <lastBuildDate>Thu, 07 May 2020 20:52:08 +0900</lastBuildDate>
     
-	<atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="ttps://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>ttps://okayamadaiti.github.io/blog/posts/20200508/</guid>
       <description>経緯 VB + .Net 3.5 という制限下で開発する必要があったため、各フレームワークが使いづらく車輪の再発明を決行。 VBでの例が見つからなかったのでC#を参</description>
-    </item>
-    
-    <item>
-      <title>初投稿</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200507/</link>
-      <pubDate>Thu, 07 May 2020 16:32:44 +0900</pubDate>
-      
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200507/</guid>
-      <description>このブログの趣旨 なんちゃってエンジニアの備忘を主としたブログです。たぶん。 当ブログ作成の経緯 下記ブログでちょろちょろと書いていたのですが、い</description>
     </item>
     
   </channel>
