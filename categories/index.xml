@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 15:32:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 09:48:40 +0900</lastBuildDate>
     
 	<atom:link href="ttps://okayamadaiti.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>サーバ</title>
+      <link>ttps://okayamadaiti.github.io/blog/categories/%E3%82%B5%E3%83%BC%E3%83%90/</link>
+      <pubDate>Tue, 25 Aug 2020 09:48:40 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/categories/%E3%82%B5%E3%83%BC%E3%83%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>環境構築</title>
+      <link>ttps://okayamadaiti.github.io/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+      <pubDate>Tue, 25 Aug 2020 09:48:40 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>プログラミング</title>
