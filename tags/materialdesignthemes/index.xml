@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MaterialDesignThemes on 布団が俺を呼んでいる</title>
+    <link>ttps://okayamadaiti.github.io/blog/tags/materialdesignthemes/</link>
+    <description>Recent content in MaterialDesignThemes on 布団が俺を呼んでいる</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
+    <lastBuildDate>Tue, 26 May 2020 10:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="ttps://okayamadaiti.github.io/blog/tags/materialdesignthemes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MaterialDesignThemes の使い方再勉強</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20200526/</link>
+      <pubDate>Tue, 26 May 2020 10:02:24 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20200526/</guid>
+      <description>経緯 色々なプラットフォームがありますが、なんだかんだWindows でフォームアプリケーション作るならWPFですよね。 そんでもって「WPFでそ</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.68.3" />
+
+    
+    
+    
+
+<title>Visual Studio サブスクリプション更新でのトラブル顛末 • 布団が俺を呼んでいる</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Visual Studio サブスクリプション更新でのトラブル顛末"/>
+<meta name="twitter:description" content="経緯と概略 私は個人でVisual Studio サブスクリプション契約を結んでいます。 VSだけでなく色々なツールも使えますし、Azureの無料枠もついてき"/>
+
+<meta property="og:title" content="Visual Studio サブスクリプション更新でのトラブル顛末" />
+<meta property="og:description" content="経緯と概略 私は個人でVisual Studio サブスクリプション契約を結んでいます。 VSだけでなく色々なツールも使えますし、Azureの無料枠もついてき" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="ttps://okayamadaiti.github.io/blog/posts/20200903/" />
+<meta property="article:published_time" content="2020-09-05T13:33:21+09:00" />
+<meta property="article:modified_time" content="2020-09-05T13:33:21+09:00" />
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/blog/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css" integrity="sha256-MIHEmB&#43;2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
+
+
+<link rel="stylesheet" href="/blog/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class="theme-base-0c ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="ttps://okayamadaiti.github.io/blog/">布団が俺を呼んでいる</a>
+      </span>
+      
+      
+      <p class="site__description">
+         丘山大一のブログ 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">布団が俺を呼んでいる</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/blog/">
+						<span>ブログトップ</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/blog/posts/">
+						<span>投稿一覧</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/blog/categories/">
+						<span>カテゴリ</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/blog/tags/">
+						<span>タグ</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="https://mstdn-workers.com/@okayamaD">
+						<span>マストドン</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="https://hutoncallsme.azurewebsites.net/">
+						<span>旧ブログ</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	<a href="https://github.com/okayamadaiti" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Visual Studio サブスクリプション更新でのトラブル顛末</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Sep 05, 2020
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89">環境構築</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/blog/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9">ライセンス</a>
+           
+      
+          <a class="badge badge-tag" href="/blog/tags/%E3%82%A8%E3%83%A9%E3%83%BC">エラー</a>
+           
+      
+          <a class="badge badge-tag" href="/blog/tags/microsoft">microsoft</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 9 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <h1 id="経緯と概略">経緯と概略</h1>
+<p>私は個人でVisual Studio サブスクリプション契約を結んでいます。
+VSだけでなく色々なツールも使えますし、Azureの無料枠もついてきて便利です。
+毎年数万円払っていますが、それだけの価値はあると思っています。</p>
+<p>が、中身はともかく使うまでの契約更新作業がなかなか厄介で、更新のたびに細々とトラブルが起きています。
+毎回苦労しているのですが、今回は特に ひどい目にあいました。</p>
+<p>具体的には「契約期間中はいつでも使える」のがウリのサブスクリプション契約で一月弱使用不能に陥りました。</p>
+<pre><code>使用不可の間の補填はありませんでした。ただし、これはAzureの状態自体は維持されていた＝不完全ながらもサービスの提供はされていたので、MS側としても金銭的な補填や期間延長などは採りづらいのだと思います。また企業契約なら影響甚大ですが、個人レベルだと補填にかかる手間暇の方が辛いというコスト対効果の面で仕方ない部分があります。
+</code></pre><h1 id="起きたこと">起きたこと</h1>
+<h2 id="ライセンス更新手続き中">ライセンス更新手続き中</h2>
+<p>契約自体はMSと直接行うわけではなく、リセラー（代理店）を介して行います。
+毎年更新するので、毎年同じ時期に連絡が来るのですが今回は例年の比べて若干遅れてきました。
+ただ、誤差の範囲ですしコロナ騒ぎもありますので連絡が多少遅れたくらいでは気にしていませんでした。</p>
+<p>代金を支払い、契約更新手続きに進んだところでトラブルがおき始めました。</p>
+<h3 id="契約更新でのエラー">契約更新でのエラー</h3>
+<p>契約更新自体はMSとの契約ですので、案内に従ってMSのサイトから実施します。</p>
+<p>このサイトが、まあなんというか古くて反応が鈍い……いくらなんでもoffice2010のご案内はなかろうて。</p>
+<p><img src="/blog/posts/img/20200903/20200903.png" alt="office2010"></p>
+<p>でも業務向けなんてこんなものよ！の精神で作業します。</p>
+<p>が。</p>
+<p>入力し、更新しようとしてデデン！</p>
+<p><img src="/blog/posts/img/20200903/20200903a.png" alt="エラー"></p>
+<p>ええー。</p>
+<p>繰り返し行われました、って内部で何やってるんですかこのサイト。
+困ったので更新をかけ再度入ると……</p>
+<p><img src="/blog/posts/img/20200903/20200903b.png" alt="エラー"></p>
+<p>エラーがあったことが表示されている。
+しかし何このエラー？状態です。</p>
+<ul>
+<li>ログがどこにあるのか分からないし、そもそも普通に考えてMS側の管理用に記録されているものであろうから見られない。</li>
+<li>問題が解決されない場合、とあるが「エラーが起きた」ことしかこちらには分からない。何の問題が起きていたんだ？</li>
+<li>ここでいうアカウント管理者って誰？契約更新しようとしている私もある意味ではアカウント管理者ですが、タブンこれMSの中の人のことですよね？</li>
+</ul>
+<p>とまあ、結局打てる手がないのでヤケクソ気味に作業を進めてみたところ、あっさり次のステップにいけました。</p>
+<p>なんだ一時的なものだったのか、よかったよかった。と思ったのもつかの間。</p>
+<p><img src="/blog/posts/img/20200903/20200903c.gif" alt="入力不可"></p>
+<p>コンボボックスで選択できない……
+これバグちゃうんか……？</p>
+<p>さすがに「必須項目を選択すらできない」のには太刀打ちできず。
+サポートに連絡することにしました。夜だったので電話ではなくフォームから連絡します。</p>
+<p><img src="/blog/posts/img/20200903/20200903d.png" alt="入力不可"></p>
+<p>いやあの……サポートへの連絡すらできないのですが……？</p>
+<h3 id="サポートへの連絡">サポートへの連絡</h3>
+<p>こういう場合、リセラーかMSへのサポート、どちらかへメールか電話することになります。</p>
+<p>あきらかにMS側のサーバでのエラーでしたので、MSサポートに連絡。いつも通りたらい回し。</p>
+<pre><code>たらい回しになってしまう原因なのですが、普通VSサブスクリプションは個人ではなく企業で契約です。なので音声案内に従って進めていくと前提が狂ってしまうのか別部署につながることがあります。個人でのVSサブスクリプション契約は例外と考えていいと思うので、この辺りも納得はできる範囲。
+</code></pre><p>さて、ここでエラーについて説明したものの、「この手のエラーについてはリセラー対応ということになっている」の一点張りでした。</p>
+<p>「え、MSのサーバでエラーって出てるよ？リセラーがどうやって調査するの？できるの？」とお尋ねしたものの「リセラーと調整して」とのこと。</p>
+<p>本当にそれで解決するのかいな？と思いつつリセラーに連絡してみて、しばらくすると……なんとサイトではなく書面での契約更新に(笑)
+正確にはMS Word、PDF等のファイルを介しての契約となりました。</p>
+<p>もっとも書面契約での対応はよく、スムーズにいきました。</p>
+<p>これは疑って悪かった。リセラーで良かったのね。</p>
+<pre><code>と、この時は良かったのですが、後で契約が二本登録される現象に遭遇します。
+そうなってしまったのは、エラーが発生した時に裏ではMSの契約DBにはある程度契約更新のデータができていたのにも関わらず、リセラー経由でも追加の契約を作るよう指示してしまったためではないか……と邪推しています。
+確かめるすべはありませんが……
+</code></pre><h2 id="サブスクライバー割り当て中">サブスクライバー割り当て中</h2>
+<p>さて、契約更新作業が終わってしばらくするとMSから「契約できたよ！契約管理者の管理や、サブスクライバー割り当て作業してね！」という連絡がきます。</p>
+<p>VSサブスクリプションは構成として「契約の管理者」が「サブスクライバーにサブスクリプションを割り当てる」ことになります。</p>
+<p>私の場合は個人、つまり一人なので「契約の管理者」＝「サブスクライバー」＝「私」となります。</p>
+<p>私を管理者にしてサブスクライバーに私を割り当てる作業ですね。</p>
+<h3 id="管理者割り当て作業">管理者割り当て作業</h3>
+<p>いつからか分かりませんが、管理者・サブスクライバー管理画面が刷新されていました。
+だいぶスッキリしており、結構見やすい。</p>
+<p><img src="/blog/posts/img/20200903/20200903e.png" alt="画面"></p>
+<p>※赤枠の部分はライセンス番号やメールアドレスなどの私個人の設定関連情報</p>
+<p>さくっと登録して、使おうとして気が付いた。</p>
+<p>ADが違う……</p>
+<p>おそらくサブスクライバーの管理にADを利用するからなのでしょうが、管理者・サブスクライバーはAzure AD に対して紐づけられるようです。</p>
+<p>私のAzure ADは既定のディレクトリと、テスト用に作って消せなくなったディレクトリがあります。
+リソースを全部消しても、削除できない不具合発生中くさいディレクトリです。</p>
+<p>もちろんテスト用は使っていけません。あわてて管理者を変更しようとディレクトリを変更。そしたらですね、既定のディレクトリでは古い契約しか出てこないんですよ……</p>
+<p>なぜ？</p>
+<p>契約ってADに対してやるものだっけ？</p>
+<p>でもADの入力なんて求められてないし、これはテスト用のディレクトリ。既定のディレクトリじゃないから自動で結びつくのもおかしい。</p>
+<p>管理者登録を試すものの、試しに登録した管理者が削除できなくなりややこしいことに……</p>
+<p>悩んで、ボリューム ライセンス サービス センターを確認してみました。</p>
+<p><a href="https://www.microsoft.com/Licensing/Servicecenter/default.aspx?wa=wsignin1.0">https://www.microsoft.com/Licensing/Servicecenter/default.aspx?wa=wsignin1.0</a></p>
+<p>そしたらですね……なぜか今回結んだ契約が二本に増えていました。</p>
+<p><img src="/blog/posts/img/20200903/20200903f.png" alt="画面"></p>
+<h3 id="ms対応依頼">MS対応依頼</h3>
+<p>ADで管理者管理が云々だけなら、なにか設定を変えればいけるかもしれないと考えていました。
+（実際あれこれやってた）</p>
+<p>しかし、契約が増殖しているとなると話は別です。どの契約が正しいのか分からないし、変なことをしては取り戻しがきかなくなるかもしれません。なにより一本の契約しかしてないのに二本使っていたら明確に不正行為です。</p>
+<p>これはダメだマズいと全作業停止してMSサポートに連絡しました。</p>
+<p>管理者割り当てができないこと、そのためサブスクライバー割り当てができないこと、契約が増殖していること……各スクリーンショットを添付してお送りしました。</p>
+<p>この手の問題は当日中に解決するのは難しいものです。そしてこの手の調査してもらうためには現状維持が基本です。（データやログが変になるとまずい）そのためにも下記を実施。</p>
+<ul>
+<li>サブスクライバーと紐づくツールの使用を停止</li>
+<li>Azureへアクセスしない（稼働状態のものは止められないので置いておく）</li>
+<li>MSアカウント系へのログインもなるべく控える</li>
+</ul>
+<p>調査には最悪一週間程度かかるかもな……と思って待ちました。</p>
+<p>そして時は流れ、約20日後。</p>
+<p>連絡はありません。</p>
+<p>連絡はありません。</p>
+<p>約20日後。完全放置。</p>
+<p>コロナもあり、お盆もあり。
+多少は待つと決めましたがまさか半月を超えて進捗の連絡すらないとは。</p>
+<p>さすがにこれ以上は待てないので</p>
+<ul>
+<li>作業を止め続けていること</li>
+<li>更新手続きのために確保していた時間がなくなったこと</li>
+<li>経過報告も受けないまま、約一月分のサブスクリプション代をどぶに捨てたこと</li>
+<li>当件について補填などはあるのか？
+等を書いたメールを送ったところ翌日に返信が届きました。</li>
+</ul>
+<p>以下、MSサポートから頂戴したメールからの一部抜粋です。
+MSサポートからの許可を得て記載しています。</p>
+<hr>
+<pre><code>本来であれば管理者の登録はメールアドレスのみであり、同一のアカウントであればディレクトリに依存せずご契約が表示されるものとなります。
+しかしながらお伺いした状況では想定と異なる動作となっていたため、確認に時間を要している状況となっておりました。
+弊社担当部署にて調査のうえ、システムの読み込みに問題がある可能性があるとのことから情報の再読み込み・反映操作を行わせていただきました。
+改めてアクセスのうえご契約が表示されるかご確認お願いいたします。
+ 
+なお、進捗のご連絡が行えておらず大変申し訳ございませんでした。
+今回の事象に関する補填につきましては、ご案内できる方法があるかどうかも含め社内で確認いたします。
+ 
+Visual Studio サブスクリプション管理サイトでは、セキュリティの観点から、
+登録されている管理者が２名の場合、削除が行えない仕様となっております。
+システム上に登録されているスーパー管理者が３名以上いる場合、２名を残して他の管理者を削除する事が可能です。
+ 
+そのため、現在登録されている管理者情報を削除されたい場合には、
+新たに管理者の情報を登録し、３名以上のスーパー管理者が登録されている状態とした上で削除の作業をお願いいたします。
+（登録される管理者がいない場合には、ダミーの情報で登録していただいても問題ございません）
+</code></pre><hr>
+<p>このメールのあと、時間をとって検証しました。結果として、
+管理者登録とサブスクライバー割り当ては正しくでき、VSの更新やアカウント認証も通ることが確認でき、ひとまずの解決です。</p>
+<h1 id="皆さんに共有したいこと">皆さんに共有したいこと</h1>
+<p>MSサポートとのやりとりの中で判明したことです。</p>
+<ul>
+<li>契約更新作業中にエラーが出たら、（おそらく）自力解決は不可能です。</li>
+<li>サブスクライバー管理でつまづいたら早めに連絡。</li>
+<li>解決には3週間以上かかる可能性があります。（ただしお盆を挟んでいたことは考慮）</li>
+<li>このようなエラーに対する、日本語でのMS公式Web情報はありません。</li>
+<li>今回のケースでは金銭的・期間延長などの補填はありません。開発が間に合わなくて実害がでた、などあっても金銭的な保障があるかどうかは不明です。</li>
+</ul>
+<h2 id="その他">その他</h2>
+<ul>
+<li>「Twitterで問い合わせれば反応があるのではないか？」というアドバイスももらったのですが、私はTwitterアカウントを持っていないのでできませんでした。（理由は旧ブログ記事）</li>
+<li>当件はMSサポートに許諾を貰っての情報共有となります。</li>
+<li>確認に時間がかかっているのはこんな作業をしているためです。
+<ul>
+<li>各端末（ドメインに入っているPC、入っていないPC、etc）ごとのサブスクライバーアカウント認証確認</li>
+<li>サブスクライバーの更新作業が正しくされているか（妙なロールバックなどが発生しないか）を日をまたいで確認</li>
+<li>Azure関係の動作確認</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/blog/posts/20200825/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">WSLでnginxを最低限動かす</span>
+    </a>
+    
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+    
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
+
+
+
+    </body>
+</html>

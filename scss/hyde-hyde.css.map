@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "hyde-hyde.css",
-	"sourceRoot": "/home/nakamurag/HugoBlogRepo",
+	"sourceRoot": "/home/okayama/HugoBlogRepo",
 	"sources": [
 		"themes/hyde-hyde/assets/scss/hyde-hyde.scss",
 		"themes/hyde-hyde/assets/scss/hyde-hyde/_variables.scss",
