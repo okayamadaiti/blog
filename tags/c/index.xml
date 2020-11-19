@@ -21,14 +21,5 @@
       <description>経緯 .Net Framework 依存のプロジェクトがあったんで、WPF + .Net Framework 4.7.2 + ReactivePropertyの構成で作っていたら、途中からデザイナが表示されなく</description>
     </item>
     
-    <item>
-      <title>MaterialDesignThemes の使い方再勉強</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200526/</link>
-      <pubDate>Tue, 26 May 2020 10:02:24 +0900</pubDate>
-      
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200526/</guid>
-      <description>経緯 色々なプラットフォームがありますが、なんだかんだWindows でフォームアプリケーション作るならWPFですよね。 そんでもって「WPFでそ</description>
-    </item>
-    
   </channel>
 </rss>
