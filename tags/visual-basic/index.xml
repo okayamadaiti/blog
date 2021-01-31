@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 May 2020 20:52:08 +0900</lastBuildDate>
-    
-	<atom:link href="ttps://okayamadaiti.github.io/blog/tags/visual-basic/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 07 May 2020 20:52:08 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/visual-basic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Basic でのBindableBase 的なもの</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20200508/</link>

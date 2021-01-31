@@ -7,10 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate>
-    
-	<atom:link href="ttps://okayamadaiti.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 31 Jan 2021 14:39:46 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>サービス</title>
+      <link>ttps://okayamadaiti.github.io/blog/categories/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
+      <pubDate>Sun, 31 Jan 2021 14:39:46 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/categories/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>プログラミング</title>

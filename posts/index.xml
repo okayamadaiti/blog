@@ -7,10 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate>
-    
-	<atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 31 Jan 2021 14:39:46 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatfuelを触る</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210131/</link>
+      <pubDate>Sun, 31 Jan 2021 14:39:46 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210131/</guid>
+      <description>経緯と概略 とある筋から「Chatfuel触ってみそ」とご下命がありました。 chatfuelがチャットボットということは分かりましたが、それ以</description>
+    </item>
     
     <item>
       <title>PowerPointでシートをコピーしつつオブジェクトを連続で差し込む</title>

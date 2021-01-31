@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2021 14:39:46 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatfuel</title>
+      <link>ttps://okayamadaiti.github.io/blog/tags/chatfuel/</link>
+      <pubDate>Sun, 31 Jan 2021 14:39:46 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/tags/chatfuel/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="ttps://okayamadaiti.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facebook</title>
+      <link>ttps://okayamadaiti.github.io/blog/tags/facebook/</link>
+      <pubDate>Sun, 31 Jan 2021 14:39:46 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/tags/facebook/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>チャットボット</title>
+      <link>ttps://okayamadaiti.github.io/blog/tags/%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88/</link>
+      <pubDate>Sun, 31 Jan 2021 14:39:46 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/tags/%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PowerPoint</title>
@@ -45,15 +68,6 @@
       <pubDate>Sun, 01 Nov 2020 01:15:08 +0900</pubDate>
       
       <guid>ttps://okayamadaiti.github.io/blog/tags/chromebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C＃</title>
-      <link>ttps://okayamadaiti.github.io/blog/tags/c/</link>
-      <pubDate>Sun, 01 Nov 2020 01:15:08 +0900</pubDate>
-      
-      <guid>ttps://okayamadaiti.github.io/blog/tags/c/</guid>
       <description></description>
     </item>
     
@@ -117,6 +131,15 @@
       <pubDate>Tue, 25 Aug 2020 09:48:40 +0900</pubDate>
       
       <guid>ttps://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C＃</title>
+      <link>ttps://okayamadaiti.github.io/blog/tags/c/</link>
+      <pubDate>Sat, 06 Jun 2020 15:32:08 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/tags/c/</guid>
       <description></description>
     </item>
     

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate>
-    
-	<atom:link href="ttps://okayamadaiti.github.io/blog/tags/powerpoint/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/powerpoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerPointでシートをコピーしつつオブジェクトを連続で差し込む</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20201119/</link>
