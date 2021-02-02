@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 21:30:07 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>他アプリケーションを管理者権限で実行するだけ というexe</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210202/</link>
+      <pubDate>Tue, 02 Feb 2021 21:30:07 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210202/</guid>
+      <description>経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man</description>
+    </item>
+    
     <item>
       <title>PowerPointでシートをコピーしつつオブジェクトを連続で差し込む</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20201119/</link>
@@ -33,15 +42,6 @@
       
       <guid>ttps://okayamadaiti.github.io/blog/posts/20200508/</guid>
       <description>経緯 VB + .Net 3.5 という制限下で開発する必要があったため、各フレームワークが使いづらく車輪の再発明を決行。 VBでの例が見つからなかったのでC#を参</description>
-    </item>
-    
-    <item>
-      <title>他アプリケーションを管理者権限で実行するだけ というexe</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210202/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210202/</guid>
-      <description>経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man</description>
     </item>
     
   </channel>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 01 Feb 2021 12:16:41 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 21:30:07 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>他アプリケーションを管理者権限で実行するだけ というexe</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210202/</link>
+      <pubDate>Tue, 02 Feb 2021 21:30:07 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210202/</guid>
+      <description>経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man</description>
+    </item>
+    
     <item>
       <title>Chatfuelの始め方</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20210201/</link>
@@ -87,15 +96,6 @@
       
       <guid>ttps://okayamadaiti.github.io/blog/posts/20200507/</guid>
       <description>このブログの趣旨 なんちゃってエンジニアの備忘を主としたブログです。たぶん。 当ブログ作成の経緯 下記ブログでちょろちょろと書いていたのですが、い</description>
-    </item>
-    
-    <item>
-      <title>他アプリケーションを管理者権限で実行するだけ というexe</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210202/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210202/</guid>
-      <description>経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man</description>
     </item>
     
   </channel>
