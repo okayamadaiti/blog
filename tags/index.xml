@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Feb 2021 13:04:30 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Feb 2021 16:14:19 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChromeBook</title>
+      <link>ttps://okayamadaiti.github.io/blog/tags/chromebook/</link>
+      <pubDate>Sun, 21 Feb 2021 16:14:19 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/tags/chromebook/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Visual Sutdio</title>
       <link>ttps://okayamadaiti.github.io/blog/tags/visual-sutdio/</link>
@@ -95,15 +104,6 @@
       <pubDate>Sun, 01 Nov 2020 01:15:08 +0900</pubDate>
       
       <guid>ttps://okayamadaiti.github.io/blog/tags/androidstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ChromeBook</title>
-      <link>ttps://okayamadaiti.github.io/blog/tags/chromebook/</link>
-      <pubDate>Sun, 01 Nov 2020 01:15:08 +0900</pubDate>
-      
-      <guid>ttps://okayamadaiti.github.io/blog/tags/chromebook/</guid>
       <description></description>
     </item>
     
