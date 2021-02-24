@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Feb 2021 00:05:10 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 22:27:55 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Macで異常な量のデータ読み書きが発生しているという話</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210224/</link>
+      <pubDate>Wed, 24 Feb 2021 22:27:55 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210224/</guid>
+      <description>経緯 下記記事を読んで興味が湧きました。 M1搭載Macで「SSDの寿命が縮むほど異常な量のデータ読み書きを確認した」という報告 https://gigazine.net/news/20210224-m1-mac-excessive-ssd-wear/ 確認方法 計測に</description>
+    </item>
+    
     <item>
       <title>令和2年分 確定申告をマイナンバーカードで電子申告</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20210222/</link>
