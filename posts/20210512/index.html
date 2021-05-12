@@ -16,19 +16,19 @@
     
     
 
-<title>他アプリケーションを管理者権限で実行するだけ というexe • 布団が俺を呼んでいる</title>
+<title>Hugo環境構築しなおし • 布団が俺を呼んでいる</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="他アプリケーションを管理者権限で実行するだけ というexe"/>
-<meta name="twitter:description" content="経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man"/>
+<meta name="twitter:title" content="Hugo環境構築しなおし"/>
+<meta name="twitter:description" content="経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。"/>
 
-<meta property="og:title" content="他アプリケーションを管理者権限で実行するだけ というexe" />
-<meta property="og:description" content="経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man" />
+<meta property="og:title" content="Hugo環境構築しなおし" />
+<meta property="og:description" content="経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="ttps://okayamadaiti.github.io/blog/posts/20210202/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-02-02T21:30:07&#43;09:00" />
-<meta property="article:modified_time" content="2021-02-02T21:30:07&#43;09:00" />
+<meta property="og:url" content="ttps://okayamadaiti.github.io/blog/posts/20210512/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-12T22:36:07&#43;09:00" />
+<meta property="article:modified_time" content="2021-05-12T22:36:07&#43;09:00" />
 
 
 
@@ -187,13 +187,13 @@
     
 <article>
   <header>
-    <h1>他アプリケーションを管理者権限で実行するだけ というexe</h1>
+    <h1>Hugo環境構築しなおし</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Feb 02, 2021
+      <i class="fas fa-calendar-alt"></i> May 12, 2021
     
     
     
@@ -202,10 +202,10 @@
           in
           
           
-              <a class="badge badge-category" href="/blog/categories/%E3%82%A2%E3%83%97%E3%83%AA">アプリ</a>
+              <a class="badge badge-category" href="/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA">ライブラリ</a>
               •
           
-              <a class="badge badge-category" href="/blog/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0">プログラミング</a>
+              <a class="badge badge-category" href="/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89">環境構築</a>
               
           
       
@@ -217,16 +217,13 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/blog/tags/c">c＃</a>
-           
-      
-          <a class="badge badge-tag" href="/blog/tags/%E8%87%AA%E4%BD%9C%E3%82%A2%E3%83%97%E3%83%AA">自作アプリ</a>
+          <a class="badge badge-tag" href="/blog/tags/hugo">hugo</a>
           
       
     
     
     <br/>
-    <i class="fas fa-clock"></i> 1 min read
+    <i class="fas fa-clock"></i> 2 min read
 </div>
 
 
@@ -235,33 +232,57 @@
   
   <div class="post">
     <h1 id="経緯">経緯</h1>
-<p>「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。<br>
-もちろんapp.manifestで指定しているだけです。<br>
-非UAC環境？そういうのはちょっと……</p>
-<h2 id="公開場所">公開場所</h2>
-<p><a href="https://github.com/okayamadaiti/AdminStart">https://github.com/okayamadaiti/AdminStart</a>
-<a href="https://github.com/okayamadaiti/AdminStart/releases">https://github.com/okayamadaiti/AdminStart/releases</a></p>
-<h2 id="使い方">使い方</h2>
-<p>AdminStartと同じ場所に「target.ini」ファイルを配置します。<br>
-target.iniに、管理者権限で実行させたいファイルのパスを記述します。</p>
-<h3 id="iniファイル">iniファイル</h3>
-<p>セクションないし名無しパラメータ一行で終わるファイルなのでテキストでも良かったのですが、一応設定ファイルなのでiniにしておいた。</p>
+<p>マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。
+というわけで再構築します。</p>
+<h2 id="前提">前提</h2>
+<p>環境はWSL Ubuntu 20.04 です。<br>
+もともとapt単発でインストールすると古いバージョンが入ってきてしまって面倒だったと記憶していたですが、今見るとLinuxのインストールでは
+Homebrewを使えと言っていますね。<br>
+<a href="https://github.com/gohugoio/hugo">https://github.com/gohugoio/hugo</a><br>
+ふむ、断る。</p>
+<h2 id="インストール">インストール</h2>
+<p>というわけで別手順でいきます。<br>
+<a href="https://github.com/golang/go/wiki/Ubuntu">https://github.com/golang/go/wiki/Ubuntu</a><br>
+まずはGolangをインストール。初回はppa入れるの忘れててしっかりエラー出しました。</p>
+<pre><code>sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install golang-go
+</code></pre><p>……結構時間かかる。<br>
+インストールが終わったら、一応1.16以上が入っていることを確認。</p>
+<pre><code>go version
+</code></pre><p>続いてソースをclone、hugoを入れます。</p>
+<pre><code>git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install
+</code></pre><p>ほい終わり。余裕だったな！
+思ったら</p>
+<pre><code>Command 'hugo' not found, but can be installed with:
+</code></pre><p>のエラー。<br>
+なんじゃらほい、確認したところインストール先が$HOME/go/bin になっていました。<br>
+お行儀が悪いですが、パスが通っている場所にコピーしてしまいます。<br>
+sudo cp -r /home/okayama/go/bin/hugo /usr/local/bin/</p>
+<p>あらためて</p>
+<pre><code>hugo version
+hugo v0.84.0-DEV linux/amd64 BuildDate=unknown
+</code></pre><p>ＯＫ、よさそうです。</p>
+<p>あとはいつも通り、</p>
+<pre><code>hugo server -D
+</code></pre><p>から作業再開！</p>
+<h3 id="実は">実は</h3>
+<p>ブログの元ソース引っ張ってくるときにサブモジュール更新するの忘れててエラー出したのは秘密です。</p>
+<pre><code>git submodule update --init --recursive
+</code></pre><p>Hugoの動作変わったのか！？と一瞬焦りました。</p>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/blog/posts/20210201/" class="navigation-prev">
+    <a href="/blog/posts/20210222/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Chatfuelの始め方</span>
+      <span class="navigation-tittle">令和2年分 確定申告をマイナンバーカードで電子申告</span>
     </a>
     
-    
-    <a href="/blog/posts/20210203/" class="navigation-next">
-      <span class="navigation-tittle">Visual Studioのgit.exeの場所</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 

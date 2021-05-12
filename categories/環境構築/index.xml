@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Feb 2021 13:04:30 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 22:36:07 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo環境構築しなおし</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210512/</link>
+      <pubDate>Wed, 12 May 2021 22:36:07 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210512/</guid>
+      <description>経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。</description>
+    </item>
+    
     <item>
       <title>Visual Studioのgit.exeの場所</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20210203/</link>

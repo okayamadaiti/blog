@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 15:32:08 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 22:36:07 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo環境構築しなおし</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210512/</link>
+      <pubDate>Wed, 12 May 2021 22:36:07 +0900</pubDate>
+      
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210512/</guid>
+      <description>経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。</description>
+    </item>
+    
     <item>
       <title>ReactiveProperty &#43; VS2019でのデザイナ動作</title>
       <link>ttps://okayamadaiti.github.io/blog/posts/20200606/</link>

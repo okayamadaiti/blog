@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Feb 2021 22:27:55 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 22:36:07 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Macで異常な量のデータ読み書きが発生しているという話</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210224/</link>
-      <pubDate>Wed, 24 Feb 2021 22:27:55 +0900</pubDate>
+      <title>Hugo環境構築しなおし</title>
+      <link>ttps://okayamadaiti.github.io/blog/posts/20210512/</link>
+      <pubDate>Wed, 12 May 2021 22:36:07 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210224/</guid>
-      <description>経緯 下記記事を読んで興味が湧きました。 M1搭載Macで「SSDの寿命が縮むほど異常な量のデータ読み書きを確認した」という報告 https://gigazine.net/news/20210224-m1-mac-excessive-ssd-wear/ 確認方法 計測に</description>
+      <guid>ttps://okayamadaiti.github.io/blog/posts/20210512/</guid>
+      <description>経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。</description>
     </item>
     
     <item>
