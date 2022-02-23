@@ -2,27 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ライブラリ on 布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/</link>
+    <link>https://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/</link>
     <description>Recent content in ライブラリ on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 12 May 2021 22:36:07 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 21:54:15 +0900</lastBuildDate><atom:link href="https://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSVHelperを試す</title>
+      <link>https://okayamadaiti.github.io/blog/posts/20220223/</link>
+      <pubDate>Wed, 23 Feb 2022 21:54:15 +0900</pubDate>
+      
+      <guid>https://okayamadaiti.github.io/blog/posts/20220223/</guid>
+      <description>経緯 先日、CSVをC#プログラムから出力する必要が出てきまして、さて書くかあ……と思ったのですが世の中にはCSVを扱うよいライブラリが沢山あ</description>
+    </item>
+    
     <item>
       <title>Hugo環境構築しなおし</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210512/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210512/</link>
       <pubDate>Wed, 12 May 2021 22:36:07 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210512/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210512/</guid>
       <description>経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。</description>
     </item>
     
     <item>
       <title>ReactiveProperty &#43; VS2019でのデザイナ動作</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200606/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200606/</link>
       <pubDate>Sat, 06 Jun 2020 15:32:08 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200606/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200606/</guid>
       <description>経緯 .Net Framework 依存のプロジェクトがあったんで、WPF + .Net Framework 4.7.2 + ReactivePropertyの構成で作っていたら、途中からデザイナが表示されなく</description>
     </item>
     

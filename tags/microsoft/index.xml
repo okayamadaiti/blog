@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft on 布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/tags/microsoft/</link>
+    <link>https://okayamadaiti.github.io/blog/tags/microsoft/</link>
     <description>Recent content in Microsoft on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Sat, 05 Sep 2020 13:33:21 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Sep 2020 13:33:21 +0900</lastBuildDate><atom:link href="https://okayamadaiti.github.io/blog/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Studio サブスクリプション更新でのトラブル顛末</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200903/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200903/</link>
       <pubDate>Sat, 05 Sep 2020 13:33:21 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200903/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200903/</guid>
       <description>経緯と概略 私は個人でVisual Studio サブスクリプション契約を結んでいます。 VSだけでなく色々なツールも使えますし、Azureの無料枠もついてき</description>
     </item>
     

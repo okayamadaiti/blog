@@ -2,144 +2,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/</link>
+    <link>https://okayamadaiti.github.io/blog/</link>
     <description>Recent content on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 16 Feb 2022 21:16:57 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 21:54:15 +0900</lastBuildDate><atom:link href="https://okayamadaiti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSVHelperを試す</title>
+      <link>https://okayamadaiti.github.io/blog/posts/20220223/</link>
+      <pubDate>Wed, 23 Feb 2022 21:54:15 +0900</pubDate>
+      
+      <guid>https://okayamadaiti.github.io/blog/posts/20220223/</guid>
+      <description>経緯 先日、CSVをC#プログラムから出力する必要が出てきまして、さて書くかあ……と思ったのですが世の中にはCSVを扱うよいライブラリが沢山あ</description>
+    </item>
+    
     <item>
       <title>PowerShellで全文検索</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20220216/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20220216/</link>
       <pubDate>Wed, 16 Feb 2022 21:16:57 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20220216/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20220216/</guid>
       <description>経緯 結構放置していたのですが久々に書きます。 今回の内容は、備忘も兼ねて勉強会で発表したよく使うPowerShellコマンドレットについて書き</description>
     </item>
     
     <item>
       <title>Hugo環境構築しなおし</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210512/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210512/</link>
       <pubDate>Wed, 12 May 2021 22:36:07 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210512/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210512/</guid>
       <description>経緯 マシンを組み替えたため、ブログを書く環境、すなわちHugo環境がなくなっていました。 というわけで再構築します。 前提 環境はWSL Ubuntu 20.04 です。</description>
     </item>
     
     <item>
       <title>令和2年分 確定申告をマイナンバーカードで電子申告</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210222/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210222/</link>
       <pubDate>Mon, 22 Feb 2021 00:05:10 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210222/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210222/</guid>
       <description>経緯 確定申告の時期がやってまいりました。 これまで頑なに紙で提出していましたが、このご時世です。なるべく外に出たくはありません。 というわけで電</description>
     </item>
     
     <item>
       <title>Chrome OS(book) のレビュー記事を読んで</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210221/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210221/</link>
       <pubDate>Sun, 21 Feb 2021 16:14:19 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210221/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210221/</guid>
       <description>経緯 これを読んで気になったところ、私の感想など。前にも感想は書いたけど改めて。 https://www.lifehacker.jp/2021/02/chromebook-or-windows-laptop.html あくまで私の感想ですヨ！ 1．価格が安い 同意します。 2．ウィル</description>
     </item>
     
     <item>
       <title>Visual Studioのgit.exeの場所</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210203/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210203/</link>
       <pubDate>Sun, 07 Feb 2021 13:04:30 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210203/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210203/</guid>
       <description>備忘 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd</description>
     </item>
     
     <item>
       <title>他アプリケーションを管理者権限で実行するだけ というexe</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210202/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210202/</link>
       <pubDate>Tue, 02 Feb 2021 21:30:07 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210202/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210202/</guid>
       <description>経緯 「管理者権限で実行してくれない！」という言葉を某所で聞きましたので、管理者権限で実行するだけのアプリを作りました。 もちろんapp.man</description>
     </item>
     
     <item>
       <title>Chatfuelの始め方</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210201/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210201/</link>
       <pubDate>Mon, 01 Feb 2021 12:16:41 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210201/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210201/</guid>
       <description>概略 Chatfuelの始め方・基礎の解説です。 自分なりの解釈が95%を占めますので、間違っている箇所もあるかと思います。そういう箇所を見つけ</description>
     </item>
     
     <item>
       <title>Chatfuelを触る</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210131/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210131/</link>
       <pubDate>Sun, 31 Jan 2021 14:39:46 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210131/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210131/</guid>
       <description>経緯と概略 とある筋から「Chatfuel触ってみそ」とご下命がありました。 chatfuelがチャットボットということは分かりましたが、それ以</description>
     </item>
     
     <item>
       <title>PowerPointでシートをコピーしつつオブジェクトを連続で差し込む</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20201119/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20201119/</link>
       <pubDate>Thu, 19 Nov 2020 18:47:18 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20201119/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20201119/</guid>
       <description>経緯 PowerPointの各スライドにPDFイメージを載せたかった。 しかしPDFを取り込む時は最初の一ページしか取り込んでくれないうえに、操</description>
     </item>
     
     <item>
       <title>Chrome Book買ってみた</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20201101/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20201101/</link>
       <pubDate>Sun, 01 Nov 2020 01:15:08 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20201101/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20201101/</guid>
       <description>経緯 だって、ちょっと前のプライムデーで安売りしてたから…… もうちょっと細かく Microsoft信者ですが、それ以外にも「使ったことが無いOS</description>
     </item>
     
     <item>
       <title>Visual Studio サブスクリプション更新でのトラブル顛末</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200903/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200903/</link>
       <pubDate>Sat, 05 Sep 2020 13:33:21 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200903/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200903/</guid>
       <description>経緯と概略 私は個人でVisual Studio サブスクリプション契約を結んでいます。 VSだけでなく色々なツールも使えますし、Azureの無料枠もついてき</description>
     </item>
     
     <item>
       <title>WSLでnginxを最低限動かす</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200825/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200825/</link>
       <pubDate>Tue, 25 Aug 2020 09:48:40 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200825/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200825/</guid>
       <description>経緯 ちょろっと手元でWebサーバを動かしたい。 最近の主流が分からんけどnginxを使いましょ。 私はWeb系弱いのでこの程度の作業でも備忘とし</description>
     </item>
     
     <item>
       <title>ReactiveProperty &#43; VS2019でのデザイナ動作</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200606/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200606/</link>
       <pubDate>Sat, 06 Jun 2020 15:32:08 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200606/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200606/</guid>
       <description>経緯 .Net Framework 依存のプロジェクトがあったんで、WPF + .Net Framework 4.7.2 + ReactivePropertyの構成で作っていたら、途中からデザイナが表示されなく</description>
     </item>
     
     <item>
       <title>Visual Basic でのBindableBase 的なもの</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200508/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200508/</link>
       <pubDate>Thu, 07 May 2020 20:52:08 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200508/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200508/</guid>
       <description>経緯 VB + .Net 3.5 という制限下で開発する必要があったため、各フレームワークが使いづらく車輪の再発明を決行。 VBでの例が見つからなかったのでC#を参</description>
     </item>
     
     <item>
       <title>初投稿</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200507/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200507/</link>
       <pubDate>Thu, 07 May 2020 16:32:44 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200507/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200507/</guid>
       <description>このブログの趣旨 なんちゃってエンジニアの備忘を主としたブログです。たぶん。 当ブログ作成の経緯 下記ブログでちょろちょろと書いていたのですが、い</description>
     </item>
     

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PowerPoint on 布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/tags/powerpoint/</link>
+    <link>https://okayamadaiti.github.io/blog/tags/powerpoint/</link>
     <description>Recent content in PowerPoint on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/powerpoint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 18:47:18 +0900</lastBuildDate><atom:link href="https://okayamadaiti.github.io/blog/tags/powerpoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerPointでシートをコピーしつつオブジェクトを連続で差し込む</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20201119/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20201119/</link>
       <pubDate>Thu, 19 Nov 2020 18:47:18 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20201119/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20201119/</guid>
       <description>経緯 PowerPointの各スライドにPDFイメージを載せたかった。 しかしPDFを取り込む時は最初の一ページしか取り込んでくれないうえに、操</description>
     </item>
     

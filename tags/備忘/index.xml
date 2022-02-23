@@ -2,45 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>備忘 on 布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/</link>
+    <link>https://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/</link>
     <description>Recent content in 備忘 on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 16 Feb 2022 21:16:57 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 21:54:15 +0900</lastBuildDate><atom:link href="https://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSVHelperを試す</title>
+      <link>https://okayamadaiti.github.io/blog/posts/20220223/</link>
+      <pubDate>Wed, 23 Feb 2022 21:54:15 +0900</pubDate>
+      
+      <guid>https://okayamadaiti.github.io/blog/posts/20220223/</guid>
+      <description>経緯 先日、CSVをC#プログラムから出力する必要が出てきまして、さて書くかあ……と思ったのですが世の中にはCSVを扱うよいライブラリが沢山あ</description>
+    </item>
+    
     <item>
       <title>PowerShellで全文検索</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20220216/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20220216/</link>
       <pubDate>Wed, 16 Feb 2022 21:16:57 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20220216/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20220216/</guid>
       <description>経緯 結構放置していたのですが久々に書きます。 今回の内容は、備忘も兼ねて勉強会で発表したよく使うPowerShellコマンドレットについて書き</description>
     </item>
     
     <item>
       <title>Visual Studioのgit.exeの場所</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20210203/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20210203/</link>
       <pubDate>Sun, 07 Feb 2021 13:04:30 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20210203/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20210203/</guid>
       <description>備忘 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd</description>
     </item>
     
     <item>
       <title>WSLでnginxを最低限動かす</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200825/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200825/</link>
       <pubDate>Tue, 25 Aug 2020 09:48:40 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200825/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200825/</guid>
       <description>経緯 ちょろっと手元でWebサーバを動かしたい。 最近の主流が分からんけどnginxを使いましょ。 私はWeb系弱いのでこの程度の作業でも備忘とし</description>
     </item>
     
     <item>
       <title>Visual Basic でのBindableBase 的なもの</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200508/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200508/</link>
       <pubDate>Thu, 07 May 2020 20:52:08 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200508/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200508/</guid>
       <description>経緯 VB + .Net 3.5 という制限下で開発する必要があったため、各フレームワークが使いづらく車輪の再発明を決行。 VBでの例が見つからなかったのでC#を参</description>
     </item>
     

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visual Basic on 布団が俺を呼んでいる</title>
-    <link>ttps://okayamadaiti.github.io/blog/tags/visual-basic/</link>
+    <link>https://okayamadaiti.github.io/blog/tags/visual-basic/</link>
     <description>Recent content in Visual Basic on 布団が俺を呼んでいる</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) okayamadaiti, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 May 2020 20:52:08 +0900</lastBuildDate><atom:link href="ttps://okayamadaiti.github.io/blog/tags/visual-basic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2020 20:52:08 +0900</lastBuildDate><atom:link href="https://okayamadaiti.github.io/blog/tags/visual-basic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Basic でのBindableBase 的なもの</title>
-      <link>ttps://okayamadaiti.github.io/blog/posts/20200508/</link>
+      <link>https://okayamadaiti.github.io/blog/posts/20200508/</link>
       <pubDate>Thu, 07 May 2020 20:52:08 +0900</pubDate>
       
-      <guid>ttps://okayamadaiti.github.io/blog/posts/20200508/</guid>
+      <guid>https://okayamadaiti.github.io/blog/posts/20200508/</guid>
       <description>経緯 VB + .Net 3.5 という制限下で開発する必要があったため、各フレームワークが使いづらく車輪の再発明を決行。 VBでの例が見つからなかったのでC#を参</description>
     </item>
     
