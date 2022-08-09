@@ -2,28 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://okayamadaiti.github.io/blog/categories/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/tags/microsoft/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/posts/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/tags/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/posts/20220809/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
+    <loc>https://okayamadaiti.github.io/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</loc>
+    <lastmod>2022-08-09T18:41:49+09:00</lastmod>
+  </url><url>
     <loc>https://okayamadaiti.github.io/blog/tags/c#/</loc>
     <lastmod>2022-02-23T21:54:15+09:00</lastmod>
   </url><url>
-    <loc>https://okayamadaiti.github.io/blog/categories/</loc>
-    <lastmod>2022-02-23T21:54:15+09:00</lastmod>
-  </url><url>
     <loc>https://okayamadaiti.github.io/blog/posts/20220223/</loc>
-    <lastmod>2022-02-23T21:54:15+09:00</lastmod>
-  </url><url>
-    <loc>https://okayamadaiti.github.io/blog/posts/</loc>
-    <lastmod>2022-02-23T21:54:15+09:00</lastmod>
-  </url><url>
-    <loc>https://okayamadaiti.github.io/blog/tags/</loc>
     <lastmod>2022-02-23T21:54:15+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/</loc>
     <lastmod>2022-02-23T21:54:15+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/tags/%E5%82%99%E5%BF%98/</loc>
-    <lastmod>2022-02-23T21:54:15+09:00</lastmod>
-  </url><url>
-    <loc>https://okayamadaiti.github.io/blog/</loc>
     <lastmod>2022-02-23T21:54:15+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/tags/powershell/</loc>
@@ -39,9 +51,6 @@
     <lastmod>2021-05-12T22:36:07+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/posts/20210512/</loc>
-    <lastmod>2021-05-12T22:36:07+09:00</lastmod>
-  </url><url>
-    <loc>https://okayamadaiti.github.io/blog/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</loc>
     <lastmod>2021-05-12T22:36:07+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/categories/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</loc>
@@ -119,16 +128,10 @@
     <loc>https://okayamadaiti.github.io/blog/tags/google/</loc>
     <lastmod>2020-11-01T01:15:08+09:00</lastmod>
   </url><url>
-    <loc>https://okayamadaiti.github.io/blog/tags/microsoft/</loc>
-    <lastmod>2020-09-05T13:33:21+09:00</lastmod>
-  </url><url>
     <loc>https://okayamadaiti.github.io/blog/posts/20200903/</loc>
     <lastmod>2020-09-05T13:33:21+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/tags/%E3%82%A8%E3%83%A9%E3%83%BC/</loc>
-    <lastmod>2020-09-05T13:33:21+09:00</lastmod>
-  </url><url>
-    <loc>https://okayamadaiti.github.io/blog/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9/</loc>
     <lastmod>2020-09-05T13:33:21+09:00</lastmod>
   </url><url>
     <loc>https://okayamadaiti.github.io/blog/tags/nginx/</loc>
